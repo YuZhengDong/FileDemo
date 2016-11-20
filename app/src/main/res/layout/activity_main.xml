@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.edu.gdmec.a07150847.filedemo.MainActivity">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="phoneDicectory"
+        android:id="@+id/phoneDicectory"
+        android:layout_gravity="center_horizontal"
+        android:onClick="phoneDicectory"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ExternalStoragePublicDicectory"
+        android:id="@+id/ExternalStoragePublicDicectory"
+        android:layout_gravity="center_horizontal"
+        android:onClick="externalStoragePublicDicectory"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ExternalStorageDicectory"
+        android:id="@+id/ExternalStorageDicectory"
+        android:layout_gravity="center_horizontal"
+        android:onClick="externalStorageDicectory"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DataStorage"
+        android:id="@+id/DataStorage"
+        android:layout_gravity="center_horizontal"
+        android:onClick="dataStorage"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DownloadCacheDicectory"
+        android:id="@+id/DownloadCacheDicectory"
+        android:layout_gravity="center_horizontal"
+        android:onClick="downloadCacheDicectory"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RootDicectory"
+        android:id="@+id/RootDicectory"
+        android:layout_gravity="center_horizontal"
+        android:onClick="rootDicectory"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/result"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
